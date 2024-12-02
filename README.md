@@ -1,43 +1,14 @@
-## Extension Template: Hello, Biscuit!
+## Biscuit Rust
 
-This template is used to initialize a new empty Biscuit extension. It includes the basic structure, tests for a simple extension that greets the user with "Hello, Biscuit!".
+Rust support for [Biscuit](https://github.com/billyeatcookies/biscuit) code editor. 
 
-Check the [API reference](https://tomlin7.github.io/biscuit/api/app) for adding more functionality to your extension.
-
-### Usage
-
-To use this template, run the following command:
-
-```cs
-biscuit ext new <extension name>
-```
+To install this extension, go to Biscuit extension center, you can find the `Rust` extension listed.
 
 ### Testing
 
-Make sure to install the extension before running the tests.
-
+First install the extension package:
 ```
 poetry install --with dev
 ```
 
-Modify tests to reflect the changes you made to the extension. Simply run `poetry run pytest` to run the tests.
-
-<!--
-
-### Publishing
-
-To publish the extension, run the following command:
-
-```cs
-biscuit ext publish
-```
-
-### Installing
-
-To install the extension, run the following command:
-
-```cs
-biscuit ext install <extension name>
-```
-
--->
+Run `poetry run pytest` to run the tests.

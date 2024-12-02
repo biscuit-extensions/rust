@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import typing
 
-from hello import setup
+from rust import setup
 
 if typing.TYPE_CHECKING:
     from biscuit import App

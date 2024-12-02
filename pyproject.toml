@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "hello"
+name = "rust"
 version = "0.1.0"
-description = ""
+description = "Rust support for Biscuit"
 authors = ["Billy <billydevbusiness@gmail.com>"]
 readme = "README.md"
 
