@@ -3,11 +3,13 @@ from __future__ import annotations
 import subprocess as sp
 import typing
 
+from biscuit.extensions import Extension
+
 if typing.TYPE_CHECKING:
     from biscuit.api import ExtensionsAPI
 
 
-class Rust:
+class Rust(Extension):
     def __init__(self, api: ExtensionsAPI):
         self.api = api
 
