@@ -1,11 +1,11 @@
 from __future__ import annotations
 
-import typing
 import sys
+import typing
 
 sys.path.append("..")
 
-from rust import setup
+from src.rust import setup
 
 if typing.TYPE_CHECKING:
     from biscuit import App
