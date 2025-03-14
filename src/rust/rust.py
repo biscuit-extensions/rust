@@ -4,6 +4,7 @@ import subprocess as sp
 import typing
 
 from biscuit.extensions import Extension
+from biscuit.language import Languages
 
 if typing.TYPE_CHECKING:
     from biscuit.api import ExtensionsAPI
@@ -22,4 +23,4 @@ class Rust(Extension):
                 "Rust extension requires rust-analyzer to be installed & in your PATH."
             )
 
-        self.api.register_langserver("Rust", "rust-analyzer")
+        self.api.register_langserver(Languages.RUST, "rust-analyzer")
